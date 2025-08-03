@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>K.F Transport - आपका विश्वास, हमारी पहचान</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <div class="logo">
+        <h2>K.F Transport</h2>
+        <p>आपका सामान, हमारी ज़िम्मेदारी</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">होम</a></li>
+          <li><a href="#services">सेवाएँ</a></li>
+          <li><a href="#booking">बुकिंग</a></li>
+          <li><a href="#contact">संपर्क</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container">
+      <h1>कुशलता और विश्वास के साथ आपका सामान पहुँचाएँ</h1>
+      <p>हम पूरे भारत में गुड्स ट्रांसपोर्ट की विश्वसनीय सेवा प्रदान करते हैं।</p>
+      <a href="#booking" class="btn">अभी बुक करें</a>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <div class="container">
+      <h2>हमारी सेवाएँ</h2>
+      <div class="cards">
+        <div class="card">
+          <i class="fas fa-truck"></i>
+          <h3>लोकल डिलीवरी</h3>
+          <p>शहर के भीतर त्वरित और सुरक्षित डिलीवरी।</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-route"></i>
+          <h3>इंटरस्टेट ट्रांसपोर्ट</h3>
+          <p>दूर-दराज के शहरों में आपका सामान पहुँचाएँ।</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-box"></i>
+          <h3>पैकेज डिलीवरी</h3>
+          <p>छोटे पैकेज से लेकर बड़े कार्गो तक।</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="booking" class="booking">
+    <div class="container">
+      <h2>अभी बुक करें</h2>
+      <form action="#" method="POST">
+        <input type="text" placeholder="आपका नाम" required />
+        <input type="tel" placeholder="मोबाइल नंबर" required />
+        <input type="text" placeholder="पिकअप लोकेशन" required />
+        <input type="text" placeholder="डेस्टिनेशन" required />
+        <select required>
+          <option value="">वाहन का प्रकार चुनें</option>
+          <option>टेम्पो</option>
+          <option>ट्रक (7 फीट)</option>
+          <option>ट्रक (14 फीट)</option>
+          <option>ट्रक (22 फीट)</option>
+        </select>
+        <input type="date" required />
+        <textarea placeholder="अतिरिक्त जानकारी (वजन, सामान का प्रकार)"></textarea>
+        <button type="submit" class="btn">बुकिंग करें</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>संपर्क करें</h2>
+      <div class="info">
+        <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+        <p><i class="fas fa-envelope"></i> info@kftransport.com</p>
+        <p><i class="fas fa-map-marker-alt"></i> 123, गांधी नगर, दिल्ली - 110001</p>
+      </div>
+      <div class="social">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 K.F Transport. सर्वाधिकार सुरक्षित।</p>
+    </div>
+  </footer>
+
+</body>
+</html>
